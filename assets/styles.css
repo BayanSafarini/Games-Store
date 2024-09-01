@@ -1,0 +1,100 @@
+body {
+    background: rgb(24 26 27);
+    color: rgb(232 230 217);
+}
+* {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    padding: 1em;
+}
+h2, h3 {
+    padding: 1em 0 .5em;
+}
+p {
+    padding-bottom: 1em;
+}
+.currency-selector {
+    padding: 1em;
+}
+
+.products-container{
+    width: 100%;
+    max-width: 55em;
+    padding: 2em;
+}
+.cart-container {
+    display: flex;
+}
+.checkout-container {
+    max-width: 34em;
+    padding: 2em;
+    background: rgb(33 36 37);
+}
+.products, .cart{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.products > div {
+    width: 20%;
+    word-wrap:break-word;
+    background: rgb(30 32 33);
+    margin: 1em;
+    padding: 2em;
+}
+
+.products > div img {
+    max-width: 175px;
+    height: auto;
+}
+
+.products > div h3 {
+    font-weight: 800;
+}
+
+.cart > div {
+    width: 20%;
+    word-wrap: break-word;
+    border: 1px solid rgb(30 32 33);
+    margin: 1em;
+    padding: 2em;
+}
+.checkout-container {
+    max-width: 34em;
+}
+.checkout {
+    margin-bottom: 4em;
+}
+
+button {
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(46 50 51);
+    background: rgb(24 26 27);
+    padding: 1em;
+    transition: .2s ease all;
+    text-transform: uppercase;
+}
+button.pay {
+    background: rgb(30 32 33);
+    vertical-align: middle
+}
+button:hover {
+    background: rgb(206, 205, 205);
+    color: #000000;
+    cursor: pointer;
+}
+
+.received {
+    background-color: hsl(0deg 0% 7.06%);
+    color:rgb(190, 203, 203);
+    font-size: 1.5em;
+    padding: 0.3em;
+    border: 1px solid hsl(195deg 6.06% 25.88%);
+    vertical-align: middle
+    
+}
