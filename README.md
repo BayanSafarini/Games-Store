@@ -6,11 +6,7 @@ Welcome to the **Games Store** project, a dynamic and interactive web-based shop
 
 - [Features](#features)
 - [Project Structure](#project-structure)
-- [Installation](#installation)
 - [Usage](#usage)
-- [Contribution Guidelines](#contribution-guidelines)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
 
 ## Features
 
